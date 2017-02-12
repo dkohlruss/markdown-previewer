@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.input {
+  border: 1px solid #888;
+  outline: none;
+  resize: none;
+  border-radius: 2px;
+
+  margin: 20px;
+  padding: 10px;
+  float: left;
+
+  height: 500px;
+  width: 40%;
+}
+
+.output {
+  @extend .input;
+  float: right;
+  background: #BBB;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
